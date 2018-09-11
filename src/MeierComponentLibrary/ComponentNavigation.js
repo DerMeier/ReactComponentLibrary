@@ -11,15 +11,7 @@ class ComponentNavigation extends Component {
             {
                 id: 'productsList',
                 label: 'Product List',
-            },
-            {
-                id: 'asdf',
-                label: 'sdfghsasdfasgasg',
-            },
-            {
-                id: 'sdfh',
-                label: 'dshtxalsdjaölkdjlakög',
-            },
+            }
         ];
 
         return (
