@@ -15,7 +15,7 @@ class ComponentNavigation extends Component {
         ];
 
         return (
-            <nav>
+            <nav className="nav">
                 <ul className="nav-list">
                     {menuItems.map(item => (
                         <li

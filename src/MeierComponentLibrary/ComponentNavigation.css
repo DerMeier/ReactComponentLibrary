@@ -1,6 +1,10 @@
 nav {
     font-weight: bold;
 }
+.nav {
+    display: flex;
+    justify-content: center;
+}
 
 .nav-list {
     display: flex;
