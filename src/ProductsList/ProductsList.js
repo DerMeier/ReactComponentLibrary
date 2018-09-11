@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './ProductList.css';
 
 class ProductsList extends Component {
     constructor(props) {
@@ -25,10 +26,10 @@ class ProductsList extends Component {
         const { products } = this.state;
 
         const productListItems = products.map((product, index) => {
-            return <li key={index}>{product.name}</li>;
+            return <li className="productListItem" key={index}>{product.name}</li>;
         });
 
-        return <ul>{productListItems}</ul>;
+        return <ul className="productList">{productListItems}</ul>;
     }
 }
 

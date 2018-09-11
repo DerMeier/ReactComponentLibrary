@@ -1,0 +1,13 @@
+.productList {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.productListItem{
+    font-size: 1rem;
+    margin: 7px;
+    padding: 5px;
+    background-color: #0366ee12;
+    color: black;
+}
